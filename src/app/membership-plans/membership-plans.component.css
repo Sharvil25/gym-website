@@ -1,0 +1,105 @@
+.allp
+{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.mplan
+{
+    font-weight: 700;
+}
+
+.parent
+{
+    margin-top: 50px;
+}
+
+.con2
+{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.nump
+{
+    color: #6b6b6b;
+    font-size: large;
+}
+
+.mon
+{
+    color: #f15d44;
+    font-weight: 700;
+}
+
+.firstcard 
+{
+    border-radius: 0;
+    border: none;
+    background-color: #ffffff;
+    box-shadow: 0px 15px 49px rgba(0, 0, 0, 0.15);
+    height: 615px;
+}
+
+.border
+{
+    border-bottom: dashed;
+    background: linear-gradient(to right, #eb3c5a, #f67831);
+    color: #fff;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.triangleDiv{
+        width: 0; 
+        height: 0; 
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-top: 20px solid #f00;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 100%);
+}
+
+.head1
+{
+    font-weight: 700;
+}
+.btnWrapper{
+    padding: 2px;
+    width: 160px;
+    margin: 0 auto;
+    background: linear-gradient(to right, #eb3c5a, #f67831);
+}
+
+.stn1
+{
+    color: #000;
+    height: 45px;
+    width: 100%;
+    background-color: white;
+    font-weight: 700;
+    font-size: medium;
+    border: none;
+    outline: none;
+}
+.stn1:hover{
+    
+    background: linear-gradient(to right, #eb3c5a, #f67831);
+    color: #fff;
+}
+
+.tt
+{
+    color: #6b6b6b;
+    font-weight: 400;
+    font-size: large;
+}
+
+.pp
+{
+    font-size: large;
+    font-weight: 700;
+}

@@ -1,0 +1,18 @@
+.container {
+  margin-top: 100px;
+}
+
+.allimg {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.alltext {
+  font-weight: 700;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.filterImages {
+  width: 100%;
+}

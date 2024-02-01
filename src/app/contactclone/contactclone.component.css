@@ -1,0 +1,46 @@
+.imgloca {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.webb {
+  border-radius: 60%;
+  border: 1px solid;
+  border-color: #ebebeb;
+  border-width: 27px;
+}
+
+.webb3 {
+  border-radius: 50%;
+  border: 1px solid;
+  border-color: #ebebeb;
+  border-width: 25px;
+}
+
+.ny {
+  font-size: medium;
+  font-weight: 600;
+}
+
+.ol {
+  color: #bdbdbd;
+}
+
+.ss {
+  width: 100%;
+}
+
+.lacc {
+  width: 100%;
+}
+
+.laccb {
+  height: 150px;
+  width: 100%;
+}
+
+.sndmsg {
+  background: linear-gradient(to right, #eb3c5a, #f67831);
+  border: none;
+  color: white;
+}

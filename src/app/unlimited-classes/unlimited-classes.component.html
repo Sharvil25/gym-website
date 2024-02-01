@@ -1,0 +1,17 @@
+<div class="container-fluid  clfu">
+    <h1 class="cla">UNLIMITED CLASSES</h1>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 card service11 " *ngFor="let i of newdata">
+                    <img [src]="i.img">
+                    <div class="nameContainer">
+                        <h3>{{i.Workout}}</h3>
+                        <h6>{{i.Name}}</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

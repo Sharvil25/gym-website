@@ -1,0 +1,97 @@
+.foote
+{
+    background-color: black;
+    height: fit-content;
+}
+
+.phone
+{
+    color: white;
+}
+
+.allh
+{
+    color: #f15d44;
+    font-size: large;
+}
+
+.h22
+{
+    font-size: large;
+}
+
+.img
+{
+    background-image: url(/assets/images/footer-signup.jpg.webp);
+    background-size: cover;
+    background-position: center;
+    height: 25%;
+}
+
+.spell
+{
+    color: white;
+    text-align: center;
+}
+
+.fa-send:before 
+{
+    content: "\f1d8";
+    color: white;
+    border: none;
+}
+
+.sub
+{
+    border: none;
+    width: 40px;
+    height: 40px;
+
+    border: none;
+    background: linear-gradient(to right, #eb3c5a, #f67831);
+}
+
+.form
+{
+    width: 40%;
+    height: 40px;
+    font-size: 14px;
+    color: #bdbdbd;
+    border: 1px solid #ffffff;
+}
+
+.fa 
+{
+
+    font: normal normal normal 14px/1 FontAwesome;
+}
+
+.para1
+{
+    display: flex;
+}
+
+.para
+{
+    color: white;
+    display: flex;
+}
+
+.para3
+{
+    font-size:large;
+}
+
+.footer-social a 
+{
+    display: inline-block;
+    font-size: 16px;
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    background: #282828;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    margin: 5px;
+}

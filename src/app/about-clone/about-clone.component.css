@@ -1,0 +1,64 @@
+.contain
+{
+    margin-top: 100px;
+}
+
+.gympic
+{
+    width: 100%;
+}
+
+.story
+{
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.lorem
+{
+    color: darkcyan;
+    font-size: large;
+    padding-top: 15px;
+}
+
+.cha
+{
+    font-weight: 700;
+}
+
+.foun
+{
+    color: #f15d44;
+}
+
+.best
+{
+    font-weight: 700;
+}
+
+.ipsum
+{
+    color: #6b6b6b;
+    font-weight: 400;
+    font-size: large;
+}
+
+.award
+{
+    height: fit-content;
+    margin-top: 80px;
+
+}
+
+.certi
+{
+    max-width: 100%;
+}
+
+@media (min-width:768px) and (max-width:1200px)
+{
+    .gympic
+    {
+        height: 100%;
+    }
+}

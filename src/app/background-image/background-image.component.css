@@ -1,0 +1,92 @@
+.bgImgHome {
+  background-image: url(/assets/images/hero-bg.jpg.webp);
+  background-position: center top;
+  min-height: 500px;
+}
+
+#s1 {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+#T1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+#T9 {
+  font-size: 32px;
+  color: orangered;
+  font-weight: bold;
+}
+.headerNav {
+  height: 80px;
+  background-color: #4c4c4c;
+}
+.headerUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.headerLinks {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
+.mobileDropdown {
+  background-color: #4c4c4c;
+}
+.mobileDropdown li {
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+.menuBtn {
+  color: white;
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+#T8 {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 40px;
+  background-color: transparent;
+  border-color: orange;
+}
+.ab {
+  font-weight: 700;
+  font-size: 70px;
+}
+
+.out {
+  font-size: large;
+  font-weight: 500;
+}
+
+.child {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -100px;
+}
+
+.headingss {
+  height: 500px;
+  color: white;
+}
+
+.title {
+  text-transform: uppercase;
+}
+
+.titleLink {
+  text-transform: capitalize;
+}

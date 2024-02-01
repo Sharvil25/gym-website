@@ -1,0 +1,35 @@
+.contain
+{
+    margin-top: 100px;
+}
+
+.gympic
+{
+    width: 100%;
+}
+
+.story
+{
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.lorem
+{
+    color: darkcyan;
+    font-size: large;
+    padding-top: 15px;
+}
+
+.readBtn
+{
+    background: linear-gradient(to right, #eb3c5a, #f67831);
+    padding: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

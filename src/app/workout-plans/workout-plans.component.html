@@ -1,0 +1,19 @@
+<div class="container-fluid connn">
+    <div class="row">
+        <div class="col-md-6 half">
+            <img src="assets\images\service-pic.jpg.webp" class="service">
+        </div>
+        <div class="col-md-6 twodata">
+            <div class="row devide">
+                <div class=" col-md-6 serviceCard" *ngFor="let i of data">
+                    <img [src]="i.img" width="53" height="53" > 
+                    <div class="card-body">
+                        <h3>{{i.name}}</h3>
+                        <p>{{i.desc}}</p>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,26 @@
+<div class=" clue">
+    <div class="container">
+
+        <h1 class="train">EXPERT TRAINERS</h1>
+
+        <div class="row row3">
+            <div class="col-md-4 trainee1 " *ngFor="let i of trainer">
+
+                <div class="card main">
+                    <img [src]="i.img">
+                    <div class="card card1 traineeDesc">
+                        <h5 class="GP">{{i.Name}}</h5>
+                        <p class="LD">{{i.role}}</p>
+                        <p>{{i.des}}</p>
+                        <div class="trainer-social">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

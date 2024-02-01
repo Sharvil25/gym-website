@@ -1,0 +1,39 @@
+.connn
+{
+    margin-top: 100px;
+}
+
+.service
+{
+    height: 100%;
+    width: 100%;
+}
+
+.half
+{
+    padding: 0px
+}
+
+.serviceCard{
+    padding: 70px 30px 0 40px ;
+    color:white;
+}
+.serviceCard h3{
+    margin: 20px 0;
+} 
+.serviceCard:nth-child(odd){
+    background-color: #1e1e1e;
+}
+.serviceCard:nth-child(even){
+    background-color: #141414;
+}
+
+.twodata
+{
+    min-height:100vh;
+}
+
+.devide
+{
+    min-height:100vh; 
+}

@@ -1,0 +1,32 @@
+.blog
+{
+    margin-top: 100px;
+}
+
+.cblog1
+{
+    border: none;
+}
+
+.twocont
+{
+    display: flex;
+    font-size: large;
+}
+
+.feb
+{
+    padding-right: 5px;
+    color: #bdbdbd;
+}
+
+.hash
+{
+    color: #f15d44;
+}
+
+.prison
+{
+    font-weight: 600;
+    font-size:25x;
+}

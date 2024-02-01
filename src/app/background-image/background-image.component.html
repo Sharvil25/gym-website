@@ -1,0 +1,97 @@
+<div class="bgImgHome">
+  <section id="s1">
+    <div class="container">
+      <nav class="d-flex justify-content-between align-items-center headerNav">
+        <div>
+          <a id="T1">Gu<span id="T9">tim.</span></a>
+        </div>
+        <ul class="headerUL d-lg-flex gap-4 d-none">
+          <li>
+            <a class="nav-link headerLinks" href="#" [routerLink]="['/Home']"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              class="nav-link headerLinks"
+              href="#"
+              [routerLink]="['/AboutClone']"
+              >About</a
+            >
+          </li>
+          <li>
+            <a class="nav-link headerLinks" href="#" [routerLink]="['/Classes']"
+              >Classes</a
+            >
+          </li>
+          <li>
+            <a class="nav-link headerLinks" href="#" [routerLink]="['/Blog']"
+              >Blog</a
+            >
+          </li>
+          <li>
+            <a class="nav-link headerLinks" href="#" [routerLink]="['/Gallery']"
+              >Gallery</a
+            >
+          </li>
+          <li>
+            <a class="nav-link headerLinks" href="#" [routerLink]="['/Contact']"
+              >Contact</a
+            >
+          </li>
+        </ul>
+        <button id="T8" class="d-sm-block d-none">Sign Up Today</button>
+        <i
+          class="fa-solid fa-bars menuBtn d-lg-none"
+          (click)="setIsDisplay()"
+        ></i>
+      </nav>
+      <ul class="headerUL mobileDropdown d-lg-none" *ngIf="isDisplay">
+        <li>
+          <a class="nav-link headerLinks" href="#" [routerLink]="['/Home']"
+            >Home</a
+          >
+        </li>
+        <li>
+          <a
+            class="nav-link headerLinks"
+            href="#"
+            [routerLink]="['/AboutClone']"
+            >About</a
+          >
+        </li>
+        <li>
+          <a class="nav-link headerLinks" href="#" [routerLink]="['/Classes']"
+            >Classes</a
+          >
+        </li>
+        <li>
+          <a class="nav-link headerLinks" href="#" [routerLink]="['/Blog']"
+            >Blog</a
+          >
+        </li>
+        <li>
+          <a class="nav-link headerLinks" href="#" [routerLink]="['/Gallery']"
+            >Gallery</a
+          >
+        </li>
+        <li>
+          <a class="nav-link headerLinks" href="#" [routerLink]="['/Contact']"
+            >Contact</a
+          >
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section
+    class="container d-flex flex-column justify-content-center align-items-center headingss"
+  >
+    <h1 class="ab title">{{ title }}</h1>
+    <div class="">
+      <i class="fa fa-home pe-2"></i>
+      <span class="out" [routerLink]="['/Home']">Home</span>
+      <span class="out"> > </span>
+      <span class="out titleLink">{{ title }}</span>
+    </div>
+  </section>
+</div>

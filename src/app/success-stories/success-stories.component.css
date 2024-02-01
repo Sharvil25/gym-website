@@ -1,0 +1,53 @@
+.success
+{
+    margin-top: 100px;
+}
+
+.all
+{
+    height: fit-content;
+}
+
+.sst
+{
+    font-weight: bold;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.para
+{
+    font-size: x-large;
+    text-align: center;
+    font-weight: 400;
+}
+
+.quote
+{
+    display: flex;
+    justify-content: center;
+}
+
+.content
+{
+    text-align: center;
+}
+
+.testi
+{
+    border-radius: 50%;
+}
+
+.cor
+{
+    font-weight: 600;
+}
+
+.lea
+{
+    color: #f15d44;
+}
+
+
+
+

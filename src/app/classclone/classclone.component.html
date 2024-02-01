@@ -1,0 +1,18 @@
+<app-background-image title="Classes"></app-background-image>
+
+<app-register-now></app-register-now>
+<div class="container clfu">
+  <h1 class="cla">UNLIMITED CLASSES</h1>
+  <div class="row">
+    <div class="col-md-4 mb-5" *ngFor="let i of newdata">
+      <div class="service11">
+        <img [src]="i.img" class="nine" />
+        <div class="nameContainer">
+          <h3>{{ i.Workout }}</h3>
+          <h6>{{ i.Name }}</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<app-contact-usbanner></app-contact-usbanner>

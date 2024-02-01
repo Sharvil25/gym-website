@@ -1,0 +1,88 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 mainf">
+      <div class="registerform">
+        <div class="head">
+          <header class="rnr pt-5">REGISTER NOW</header>
+          <p class="trial pt-3">
+            The First 7 Day Trial Is Completely Free With The Teacher
+          </p>
+        </div>
+        <form
+          #register="ngForm"
+          class="registerform"
+          (ngSubmit)="register.form.valid && registerFn()"
+        >
+          <div class="row pt-3">
+            <div class="col-md-6 pb-md-5 pb-4">
+              <div>
+                <label for="name" id="fname">First Name</label>
+              </div>
+              <input
+                type="text"
+                class="name form-control"
+                [(ngModel)]="form.fname"
+                name="fname"
+                required
+                maxlength="32"
+              />
+            </div>
+
+            <div class="col-md-6 pb-md-5 pb-4">
+              <div>
+                <label for="name" id="Email">Your Email Address</label>
+              </div>
+              <input
+                type="text"
+                class="name form-control"
+                [(ngModel)]="form.Email"
+                name="Email"
+                required
+                maxlength="32"
+                [pattern]="emailRegex"
+              />
+              <span class="help-bgx" *ngIf="Email.touched && !Email.valid"
+                >Please enter email value</span
+              >
+            </div>
+
+            <div class="col-md-6 pb-md-5 pb-4">
+              <div><label for="name" id="lname">Last Name</label><br /></div>
+              <input
+                type="text"
+                class="name form-control"
+                [(ngModel)]="form.lname"
+                name="lname"
+                required
+                maxlength="32"
+              />
+            </div>
+
+            <div class="col-md-6 pb-md-5 pb-4">
+              <div><label for="name" id="mblno">MobileNo</label><br /></div>
+              <input
+                type="text"
+                class="name form-control"
+                [(ngModel)]="form.mblno"
+                name="mblno"
+                required
+                minlength="10"
+                maxlength="10"
+                [pattern]="integerRegex"
+              />
+            </div>
+          </div>
+        </form>
+      </div>
+      <button
+        type="submit"
+        class="started px-5 mb-4"
+        [disabled]="register.form.status === 'INVALID'"
+      >
+        Get started
+      </button>
+    </div>
+
+    <div class="col-md-4 regip d-md-block d-none formImgDiv"></div>
+  </div>
+</div>
