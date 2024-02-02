@@ -21,7 +21,7 @@ export class GalleryCloneComponent {
     },
     {
       image: 'assets/images/classes-6.jpg.webp',
-      types: ['all', 'coaching',"event"],
+      types: ['all', 'coaching', 'event'],
     },
     {
       image: 'assets/images/classes-3.jpg.webp',
